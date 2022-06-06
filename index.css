@@ -1,0 +1,6 @@
+@import url('./block/body/body.css');
+@import url('./block/header/header.css');
+@import url('./block/header/header__title/header__title.css');
+
+@import url('./block/resume/resume.css');
+@import url('./block/resume/resume__title/resume__title.css');
