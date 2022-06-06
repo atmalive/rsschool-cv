@@ -15,19 +15,19 @@ Was a system administrator for 10 years.
 3 years engaged in creativity as a videographer and finally matured to go into programming.
 
 
-### skils:
+### Skills:
 html, css, less, ~~javascript~~, BEM, git.
 
 
 ### Example code:
-https://github.com/atmalive/mesto
+["Mesto"](https://github.com/atmalive/mesto)
 
 
-### work experience:
-#### educational project:
-**1.** https://github.com/atmalive/russian-travel
+### Work experience:
+#### Educational project:
+**1.** ["Russian-Travel"](https://github.com/atmalive/russian-travel)
 
-**2.** https://github.com/atmalive/mesto
+**2.** ["Mesto"](https://github.com/atmalive/mesto)
 
 
 ### Education:
