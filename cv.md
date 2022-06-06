@@ -6,6 +6,7 @@
 
 ### Contacts:
 email: atmalive@gmail.com
+
 discord: atmalive
 
 
@@ -25,6 +26,7 @@ https://github.com/atmalive/mesto
 ### work experience:
 #### educational project:
 **1.** https://github.com/atmalive/russian-travel
+
 **2.** https://github.com/atmalive/mesto
 
 
