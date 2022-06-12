@@ -1,7 +1,7 @@
                                      
 # RESUME
 ## Popov Mikhail
-![iam](./image/iam.jpg)
+![iam](./assets/img/iam.jpg)
 
 
 ### Contacts:
