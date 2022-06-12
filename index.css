@@ -1,0 +1,250 @@
+/* * {
+    border: 0.3px solid red;
+    box-sizing: border-box;
+} */
+
+@import url('./assets/font/inter.css');
+@import url('./vendor/normalize.css');
+
+.body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url('./assets/img/dirty-metal-texture.webp') repeat;
+    background-size: cover;
+    margin: 0 auto;
+    font-family: "Inter", "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 791px;
+    background-color: #fff;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.5);
+    margin: 50px 0 50px 0;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('./assets/img/backgroundcv.webp') repeat;
+    opacity: 0.5;
+    /* z-index: 1; */
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin: 50px 53px 100px 33px;
+}
+
+.header__block {
+    position: absolute;
+    width: 91px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #87e2c7a1;
+}
+
+.header__img {
+    box-sizing: border-box;
+    width: 153px;
+    height: 148.33px;
+    background: #FFFFFF;
+    border: 1px solid #87e3c7a1;
+    object-fit: cover;
+    z-index: 3;
+    margin: 12px 0 0 15px;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 33px;
+}
+
+.header__name {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 60px;
+    color: #1F1717;
+    margin: 0 0 13px 0;
+    background: linear-gradient(0deg, rgba(135, 227, 199, 0.631) 50%, transparent 60%);
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #1F1717;
+    margin: 0;
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header__li {
+    margin: 6px 0 0 10px;
+    list-style-type: none;
+}
+
+.header__contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #646464;
+    border-bottom: 2px solid #87e3c7a1;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0 43px 75px 48px;
+    width: 60%;
+    z-index: 5;
+}
+
+.info__list {
+    padding-left: 18px;
+}
+
+.info__about {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #1F1717;
+    background: #87e3c7a1;
+    padding: 5px 10px;
+}
+
+.info__about-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #363535;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17%;
+    background: #87e3c7a1;
+    margin: 0;
+    padding: 15px;
+    z-index: 5;
+}
+
+.skills__skills {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #1F1717;
+    margin: 0 0 15px;
+}
+
+.skills__info {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1F1717;
+    margin: 0;
+}
+
+.skills__dev-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #1F1717;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 5;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    list-style-type: none;
+    width: 100%;
+}
+
+.footer__link {
+    border-bottom: 2px solid #87e3c7a1;
+}
+
+.footer__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0;
+    color: #646464;
+}
+
+.footer__text_year {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1F1717;
+}
+
+.footer__text_rsschool {
+    background: #faea68;
+}
+
+.footer__text_github {
+   background-color: #768390;
+   color: #cdd9e5;
+   padding: 3px;
+}
+
+.footer__img {
+    box-sizing: border-box;
+    width: 153px;
+    object-fit: contain;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.6s;
+    z-index: 5;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
